@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.basic_shape.rectangle
+package com.serdar.customviews_android.basic.rectangle
 
 
 import android.content.Context
@@ -58,6 +58,7 @@ class BasicShapesRectangle : Scaffold {
             rectBottom
         )
 
+
     }
     // Working only one time when the fragment calling
     override fun onDraw(canvas: Canvas?) {
@@ -68,6 +69,7 @@ class BasicShapesRectangle : Scaffold {
         paint.strokeWidth = 5f
         canvas?.drawRect(rectangleRect,paint
         )
+
     }
 
     companion object {

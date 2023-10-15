@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.basic_shape.line
+package com.serdar.customviews_android.basic.line
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

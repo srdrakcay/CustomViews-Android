@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.basic_shape.line
+package com.serdar.customviews_android.basic.line
 
 import com.serdar.customviews_android.R
 
@@ -16,7 +16,7 @@ import android.util.TypedValue
 import android.view.View
 
 class CustomLineView : View {
-    private val paintBohoMember= Paint()
+    private val paintMember= Paint()
     private val paintBronze= Paint()
     private val paintSilver= Paint()
     private val paintGold= Paint()
@@ -52,14 +52,14 @@ class CustomLineView : View {
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
         // Working only one time when the fragment calling
-        //Boho memeber
-        paintBohoMember.color= resources.getColor(R.color.black)
-        paintBohoMember.style= Paint.Style.STROKE
-        paintBohoMember.strokeWidth=50f
+        // Member
+        paintMember.color= resources.getColor(R.color.black)
+        paintMember.style= Paint.Style.STROKE
+        paintMember.strokeWidth=50f
         val startColor = Color.RED
         val endColor = Color.BLUE
 
-        val gradientBohoMember = LinearGradient(
+        val gradientMember = LinearGradient(
             lineXLeft,
             lineYPos,
             lineXRight,
@@ -68,8 +68,8 @@ class CustomLineView : View {
             endColor,
             Shader.TileMode.CLAMP
         )
-        paintBohoMember.shader = gradientBohoMember
-        canvas?.drawLine(lineXLeft,lineYPos,lineXRight,lineYPos,paintBohoMember)
+        paintMember.shader = gradientMember
+        canvas?.drawLine(lineXLeft,lineYPos,lineXRight,lineYPos,paintMember)
         val radius = 0.3f
         val rectF = RectF(
             lineXLeft,
@@ -78,7 +78,7 @@ class CustomLineView : View {
             lineYPos + radius
         )
         //StartArc
-        canvas?.drawArc(rectF, 90f, 180f, false, paintBohoMember)
+        canvas?.drawArc(rectF, 90f, 180f, false, paintMember)
 
         //Bronze
         val bronzeLineXLeft = lineXRight + 10f
