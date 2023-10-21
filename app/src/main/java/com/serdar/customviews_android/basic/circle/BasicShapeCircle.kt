@@ -33,7 +33,7 @@ class BasicShapeCircle : Scaffold {
         circleRadius=h* CIRCLE_RADIUS_POS_FRACTION
     }
 
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         // Working only one time when the fragment calling
 

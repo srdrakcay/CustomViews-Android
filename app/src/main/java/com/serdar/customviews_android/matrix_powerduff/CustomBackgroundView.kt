@@ -58,7 +58,7 @@ class CustomBackgroundView : View {
     }
 
     @SuppressLint("DrawAllocation")
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         canvas?.clipRect(imageClipRectF)
         canvas?.drawBitmap(backgroundBitmap,backgroundMatrix,imagePaint)

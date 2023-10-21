@@ -26,7 +26,7 @@ open class Scaffold : View {
     }
 
     // Will be called with clean Canvas when this View needs to redraw itself on the screen.
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
     }
 

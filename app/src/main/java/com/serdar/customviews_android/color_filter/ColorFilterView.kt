@@ -47,7 +47,7 @@ class ColorFilterView : View {
     }
 
     @SuppressLint("DrawAllocation")
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         val colorMatrix=ColorMatrix().apply {
             setSaturation(100f)

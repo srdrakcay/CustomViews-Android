@@ -61,7 +61,7 @@ class BasicShapesRectangle : Scaffold {
 
     }
     // Working only one time when the fragment calling
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
 
         paint.color = Color.RED

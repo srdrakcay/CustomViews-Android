@@ -49,7 +49,7 @@ class CustomLineView : View {
     }
 
     @SuppressLint("DrawAllocation")
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         // Working only one time when the fragment calling
         // Member
