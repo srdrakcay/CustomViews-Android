@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.sample_views._1_
+package com.serdar.customviews_android.basic.sample_views._1_
 
 import android.content.Context
 import android.util.AttributeSet

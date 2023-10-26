@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.camerafilter
+package com.serdar.customviews_android.learning.camerafilter
 
 import android.Manifest
 import android.content.pm.PackageManager

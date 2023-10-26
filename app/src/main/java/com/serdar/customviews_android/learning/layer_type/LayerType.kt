@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.basic.layer_type
+package com.serdar.customviews_android.learning.layer_type
 
 /*
 During animations your views may be redrawn each frame.

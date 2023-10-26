@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.path
+package com.serdar.customviews_android.learning.path
 
 import android.annotation.SuppressLint
 import android.content.Context

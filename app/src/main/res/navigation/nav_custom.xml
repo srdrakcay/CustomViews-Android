@@ -6,6 +6,6 @@
     app:startDestination="@id/cameraFilterFragment">
     <fragment
         android:id="@+id/cameraFilterFragment"
-        android:name="com.serdar.customviews_android.camerafilter.CameraFilterFragment"
+        android:name="com.serdar.customviews_android.learning.camerafilter.CameraFilterFragment"
         android:label="CameraFilterFragment" />
 </navigation>

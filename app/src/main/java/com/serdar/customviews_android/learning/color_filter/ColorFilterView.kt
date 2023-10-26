@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.color_filter
+package com.serdar.customviews_android.learning.color_filter
 
 import android.annotation.SuppressLint
 import android.content.Context

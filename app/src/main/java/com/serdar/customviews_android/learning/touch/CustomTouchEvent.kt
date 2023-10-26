@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.touch
+package com.serdar.customviews_android.learning.touch
 
 import android.content.Context
 import android.graphics.Canvas

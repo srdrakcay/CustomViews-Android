@@ -1,33 +1,23 @@
-    package com.serdar.customviews_android
+    package com.serdar.customviews_android.learning
 
     import android.animation.Animator
-    import android.animation.ValueAnimator
     import android.annotation.SuppressLint
     import android.content.Context
     import android.graphics.Bitmap
     import android.graphics.BitmapFactory
-    import android.graphics.BitmapShader
     import android.graphics.Canvas
     import android.graphics.Color
-    import android.graphics.ColorMatrix
-    import android.graphics.ColorMatrixColorFilter
     import android.graphics.LinearGradient
-    import android.graphics.Matrix
     import android.graphics.Paint
     import android.graphics.Path
     import android.graphics.RectF
-    import android.graphics.RuntimeShader
     import android.graphics.Shader
-    import android.graphics.drawable.BitmapDrawable
-    import android.graphics.drawable.Drawable
     import android.os.Build
     import android.util.AttributeSet
-    import android.util.TypedValue
     import android.view.View
-    import android.view.ViewPropertyAnimator
     import android.view.animation.DecelerateInterpolator
     import androidx.annotation.RequiresApi
-    import com.serdar.customviews_android.basic.circle.BasicShapeCircle
+    import com.serdar.customviews_android.R
 
     class CustomCircleStrokeImage : View {
         private var circleXCenter=0f

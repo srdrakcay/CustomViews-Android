@@ -1,4 +1,4 @@
-package com.serdar.customviews_android.matrix_powerduff
+package com.serdar.customviews_android.learning.matrix_powerduff
 
 import android.annotation.SuppressLint
 import android.content.Context
