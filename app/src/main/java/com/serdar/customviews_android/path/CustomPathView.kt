@@ -52,18 +52,32 @@ class CustomPathView : View {
 
 
 }
-//Kotlin veya Java gibi dillerde, özel bir görünüm (custom view) oluştururken `Path` sınıfı, çeşitli grafik nesnelerini çizmek veya yolu tanımlamak için kullanabileceğiniz bir önemli araçtır. İşte `Path` sınıfının kullanım alanlarından bazıları:
-//
-//1. **Çizim Yollarını Tanımlama**: `Path` nesnesi, bir çizgi veya yolun tanımlanması için kullanılır. Bir çizgi, çokgen, daire, eğri veya daha karmaşık bir şekil gibi grafik nesnelerini tanımlamak için kullanılabilir.
-//
-//2. **Özel Şekiller Oluşturma**: Özel şekiller oluşturmak ve bunları çizmek için kullanabilirsiniz. `Path` nesnesi, bu şekilleri tanımlamak için gerekli komutları ve çizim yollarını içerir.
-//
-//3. **Çizgi ve Eğri Çizimi**: `Path` sınıfı, doğru çizimleri, eğrileri ve çokgenleri tanımlamak ve çizmek için kullanılır. Özellikle serbestçe çizilen eğrileri tanımlamak için kullanışlıdır.
-//
-//4. **Doldurma ve Kenar Çizimi**: `Path` nesnesini kullanarak içini doldurabileceğiniz veya kenar çizimini (stroke) yapabileceğiniz şekiller oluşturabilirsiniz.
-//
-//5. **Metin Yolu Çizimi**: Metin yolu çizimi için de kullanılabilir. Örneğin, metni belirli bir yolda takip eden özel metin düzenlemeleri oluşturmak için `Path` kullanılabilir.
-//
-//6. **Grafik Efektleri**: Görsel efektler veya animasyonlar oluşturmak için `Path` kullanabilirsiniz. Bir `Path` nesnesini kullanarak animasyonlu bir yol çizebilirsiniz.
+/*
+Kotlin veya Java gibi dillerde, özel bir görünüm (custom view) oluştururken `Path` sınıfı,
+çeşitli grafik nesnelerini çizmek veya yolu tanımlamak için kullanabileceğiniz bir önemli araçtır.
+ İşte `Path` sınıfının kullanım alanlarından bazıları:
 
-//`Path` sınıfı, özel grafik çizimleri oluşturmanın ve işlemenin temel bir aracıdır ve özel görünümler veya çizimler oluştururken sıkça kullanılır.
+1. **Çizim Yollarını Tanımlama**:
+`Path` nesnesi, bir çizgi veya yolun tanımlanması için kullanılır.
+ Bir çizgi, çokgen, daire, eğri veya daha karmaşık bir şekil gibi grafik nesnelerini tanımlamak için kullanılabilir.
+
+2. **Özel Şekiller Oluşturma**:
+Özel şekiller oluşturmak ve bunları çizmek için kullanabilirsiniz.
+`Path` nesnesi, bu şekilleri tanımlamak için gerekli komutları ve çizim yollarını içerir.
+
+3. **Çizgi ve Eğri Çizimi**:
+`Path` sınıfı, doğru çizimleri, eğrileri ve çokgenleri tanımlamak ve çizmek için kullanılır.
+ Özellikle serbestçe çizilen eğrileri tanımlamak için kullanışlıdır.
+
+4. **Doldurma ve Kenar Çizimi**:
+ `Path` nesnesini kullanarak içini doldurabileceğiniz veya kenar çizimini (stroke) yapabileceğiniz şekiller oluşturabilirsiniz.
+
+5. **Metin Yolu Çizimi**:
+ Metin yolu çizimi için de kullanılabilir. Örneğin, metni belirli bir yolda takip eden özel metin düzenlemeleri oluşturmak için
+  `Path` kullanılabilir.
+
+6. **Grafik Efektleri**: Görsel efektler veya animasyonlar oluşturmak için
+`Path` kullanabilirsiniz. Bir `Path` nesnesini kullanarak animasyonlu bir yol çizebilirsiniz.
+
+`Path` sınıfı, özel grafik çizimleri oluşturmanın ve işlemenin temel bir aracıdır ve özel görünümler veya çizimler oluştururken sıkça kullanılır.
+*/

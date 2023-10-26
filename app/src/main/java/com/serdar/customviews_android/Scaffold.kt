@@ -7,7 +7,7 @@ import android.util.TypedValue
 import android.view.View
 
 open class Scaffold : View {
-    // Override this class for CustomView
+    // Override this class for com.serdar.customviews_android.com.serdar.customviews_android.com.serdar.customviews_android.CustomView
     // Override at list 2 methods
     // Secondary constructors (don't use @JvmOverloads as it can lead to bugs).
     constructor(context: Context?) : super(context)
