@@ -24,17 +24,10 @@ class CustomTouchView(context: Context, attrs: AttributeSet) : View(context, att
     private val radius = 100f
     private val circlePaint = Paint()
     private var mBitmap: Bitmap? = null
-    private var rectf: RectF? = null
 
 
     init {
         circlePaint.color = Color.BLUE
-        rectf = RectF(
-            0f ,
-            0f ,
-            (bitmapLeft).toFloat() ,
-            (bitmapRight).toFloat()
-        )
     }
 
     @SuppressLint("DrawAllocation")
@@ -70,7 +63,7 @@ class CustomTouchView(context: Context, attrs: AttributeSet) : View(context, att
                 return true
             }
             MotionEvent.ACTION_UP->{
-                    startAnimation()
+               startAnimation()
                 invalidate()
             }
         }
