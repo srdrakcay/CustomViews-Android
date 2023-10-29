@@ -33,8 +33,8 @@ class CustomTouchView(context: Context, attrs: AttributeSet) : View(context, att
         circlePaint.color = Color.BLUE
 
         val gradientGold = LinearGradient(
-            circleX - radius, circleY - radius, // Başlangıç noktası
-            circleX + radius, circleY + radius, // Bitiş noktası
+            circleX - radius, circleY - radius,
+            circleX + radius, circleY + radius,
            R.color.black, R.color.white,
             Shader.TileMode.CLAMP
         )
