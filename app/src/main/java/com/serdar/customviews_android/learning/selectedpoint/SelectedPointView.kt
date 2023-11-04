@@ -1,6 +1,8 @@
 package com.serdar.customviews_android.learning.selectedpoint
 
 
+import android.animation.ObjectAnimator
+import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Canvas
@@ -10,6 +12,7 @@ import android.os.Build
 import android.util.AttributeSet
 import android.view.View
 import androidx.annotation.RequiresApi
+import java.util.Random
 
 class SelectedPointView : View{
     private var circleXCenter=0f
@@ -115,6 +118,5 @@ class SelectedPointView : View{
         }
         invalidate()
     }
-
 
 }
