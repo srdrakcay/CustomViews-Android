@@ -144,6 +144,7 @@ class CustomLineView : View {
             centerX + radius,
             centerY + radius
         )
+
         //EndArc
         canvas?.drawArc(goldRectF, startAngle, sweepAngle, false, paintGold)
     }

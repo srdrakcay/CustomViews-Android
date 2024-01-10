@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="400dp">
+
+    <ImageView
+        android:id="@+id/ivFloat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/ic_open_floats" />
+
+    <ImageView
+        android:id="@+id/ivPerson"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/ic_float_user"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/ic_float_delete"
+
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivLock"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/ic_float_lock"
+
+        android:visibility="gone" />
+
+</FrameLayout>

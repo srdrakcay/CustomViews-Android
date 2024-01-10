@@ -14,19 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+    }
 
-        adapter=ViewPagerAdapter(this)
-        binding.viewPager.adapter=adapter
-        setPagePosition()
-    }
-    private fun setPagePosition(){
-        binding.viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
-            override fun onPageSelected(position: Int) {
-                super.onPageSelected(position)
-                binding.customView.setPosition(position)
-            }
-        })
-    }
 
 
 }
